@@ -30,6 +30,6 @@ datasets/ contains the 6 Twitter datasets we collected.
 
 Each folder contains the following files: 
 
-(i) <dataset>_network_{heterogeneous,correlated}.txt -- the network file, of the format <node1> \t <node2> \t <side1 probability> \t <side2 probability> (side2 probability doesnt exist for the correlated case).
+(i) {dataset}_network_{heterogeneous,correlated}.txt -- the network file, of the format: node1 \t node2 \t side1 probability \t side2 probability (side2 probability doesnt exist for the correlated case).
 (ii) The seed files side1_seeds.txt, side2_seeds.txt
 
