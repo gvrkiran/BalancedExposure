@@ -39,11 +39,11 @@ INCLUDES = -I.
 .SUFFIXES: .cpp
 
 
-AD_v3: $(OBJECTS) Greedy_heterogeneous.o
-	$(CCC) $(FLAGS) $(DEFINES) $(INCLUDES) $(OBJECTS) Greedy_heterogeneous.o $(LIBS) -o Greedy_heterogeneous
+AD_v3: $(OBJECTS) Common_Heterogeneous.o
+	$(CCC) $(FLAGS) $(DEFINES) $(INCLUDES) $(OBJECTS) Common_Heterogeneous.o $(LIBS) -o Common_Heterogeneous
 
 
-all: clean Greedy_heterogeneous
+all: clean Common_Heterogeneous
 
 clean: 
 	'rm' *.o
